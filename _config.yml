@@ -1,0 +1,25 @@
+
+title: "Sequence Learning"
+email: korbinian.riedhammer@th-nuernberg.de
+description: "Materials for Sequence Learning (SeqLrn)"
+
+url: "https://seqlrn.github.io"
+baseurl: ""
+
+exclude:
+  - LICENSE
+  - Remarks.md
+  - jstk
+  - vendor
+
+github_username: ["sikoried"]
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
