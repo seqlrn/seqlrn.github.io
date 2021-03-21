@@ -43,7 +43,7 @@ _For exact deadlines, refer to the Moodle assignments!_
 
 ## Recommended Textbooks
 
-- Chaeo, K.-M. and Zhang, L.: [Sequence Comparison](https://link.springer.com/book/10.1007%2F978-1-84800-320-0) (Springer). [available online through Ohm Library](https://ebookcentral.proquest.com/lib/thnuernberg/reader.action?docID=418343)
+- Chao, K.-M. and Zhang, L.: [Sequence Comparison](https://link.springer.com/book/10.1007%2F978-1-84800-320-0) (Springer). [available online through Ohm Library](https://ebookcentral.proquest.com/lib/thnuernberg/reader.action?docID=418343)
 - Sun, R., Giles, L. and van Leeuwen, J.: [Sequence Learning: Paradigms, Algorithms and Applications]() (Springer). [available online through Ohm Library](https://ebookcentral.proquest.com/lib/thnuernberg/detail.action?docID=3072729)
 - Huang, Acero, Hon: _Spoken Language Processing: A Guide to Theory, Algorithm and System Development._ (ISBN-13: 978-0130226167)
 - Jurafsky, D and Martin, J: _Speech and Language Processing._ 2017 ([available online](http://web.stanford.edu/~jurafsky/slp3/))
@@ -59,9 +59,11 @@ _For exact deadlines, refer to the Moodle assignments!_
 	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning, as well as some of our related research projects.
 
-- **March 22: Comparing Sequences.**
+- **March 22: Comparing Sequences** ([slides](/pdf/dp_and_edit_dist.pdf))
 	
 	We'll start with looking at discrete sequences and how to (pair-wise)compare them using dynamic programming algorithms.
+
+	_Required reading_: Chao/Zhang Ch. 1.2 through 1.4, 2.4 and 3.
 
 - **March 29: States and Cost Functions.**
 	
