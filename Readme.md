@@ -30,7 +30,15 @@ _Note: Materials will be (mostly) in English, the lectures/tutorials will be tau
 
 ### Important Dates
 
-_TBA_
+_For exact deadlines, refer to the Moodle assignments!_
+
+- April 11: Assignment 1 (Dynamic Programming)
+- April 25: Assignment 2 (Markov Chains)
+- May 9: Assignment 3 (Hidden Markov Models)
+- May 30: Assignment 4 (RNN)
+- June 13: Assignment 5 (Attention)
+- June 27: Assignment 6 (Transformers)
+- Week of July 5: oral exams (to be scheduled)
 
 
 ## Recommended Textbooks
