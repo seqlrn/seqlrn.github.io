@@ -54,7 +54,7 @@ _For exact deadlines, refer to the Moodle assignments!_
 ## Syllabus
 
 
-- **March 22: Introduction** ([slides](/pdf/01-introduction.pdf)
+- **March 22: Introduction** ([slides](/pdf/01-introduction.pdf))
 
 	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning, as well as some of our related research projects.
@@ -67,7 +67,7 @@ _For exact deadlines, refer to the Moodle assignments!_
 	
 	Understand how DP can be used on an abstraction of distances and states, and how that can be used for simple sequence decoding.
 
-> _April 5: no class (Tuesday following Easter)_
+> _April 5: no class (Easter)_
 
 - **April 12: Markov Chains**
 	
