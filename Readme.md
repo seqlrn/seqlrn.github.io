@@ -79,7 +79,7 @@ _TBA_
 
 	Learn how to decode sequences of arbitrary length using beam search.
 
-- ** May 10: Feed-Forward Neural Networks**
+- **May 10: Feed-Forward Neural Networks**
 	
 	After a brief introduction to neural network (fundamentals, topologies and training), we look at how to apply those to sequential data.
 	
@@ -87,9 +87,8 @@ _TBA_
 
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
 
-- _May 24: no class (Pentecost)_
+> _May 24: no class (Pentecost)_
 
-	
 - **May 31: Attention**
 
 	Attention is a modeling concept which allows the networks to learn an even better understanding of the context.
@@ -103,14 +102,14 @@ _TBA_
 
 	Encoder-decoder networks are a special kind of topology of recurrent neural networks that can be used to model sequence to sequence mappings.
 	
-- _June 21: no class_
+> _June 21: no class_
 
 - **June 28: Anomaly Detection**
 
 	We look at algorithms to detect anomalies in sequences of data.
 	We'll start with basic algorithms as BUTLA and OTALA, and extend to auto-encoder based approaches.
 
-- July 5: (tbd).
+- Week of July 5: Oral Exams
 
 
 _Subscribe to [https://github.com/sikoried/sequence-learning/](https://github.com/seqlrn/seqlrn.github.io/) to follow updates._
