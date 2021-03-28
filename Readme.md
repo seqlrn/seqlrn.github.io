@@ -32,7 +32,7 @@ _Note: Materials will be (mostly) in English, the lectures/tutorials will be tau
 
 _For exact deadlines, refer to the Moodle assignments!_
 
-- April 11: Assignment 1 (Dynamic Programming)
+- April 11: [Assignment 1 (Dynamic Programming)](https://github.com/seqlrn/1-dynamic-programming)
 - April 25: Assignment 2 (Markov Chains)
 - May 9: Assignment 3 (Hidden Markov Models)
 - May 30: Assignment 4 (RNN)
