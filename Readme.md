@@ -65,9 +65,10 @@ _For exact deadlines, refer to the Moodle assignments!_
 
 	_Required reading_: Chao/Zhang Ch. 1.2 through 1.4, 2.4 and 3.
 
-- **March 29: States and Cost Functions.**
+- **March 29: Cost Functions and States** ([slides](/pdf/03-costs-states.pdf))
 	
-	Understand how DP can be used on an abstraction of distances and states, and how that can be used for simple sequence decoding.
+	We'll look at more fine-grained ways of modeling distances and similarities.
+	Understand how DP can be used on an abstraction of states, and how that can be used for simple sequence decoding.
 
 > _April 5: no class (Easter)_
 
