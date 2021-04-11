@@ -33,7 +33,7 @@ _Note: Materials will be (mostly) in English, the lectures/tutorials will be tau
 _For exact deadlines, refer to the Moodle assignments!_
 
 - April 11: [Assignment 1 (Dynamic Programming)](https://github.com/seqlrn/1-dynamic-programming)
-- April 25: Assignment 2 (Markov Chains)
+- April 25: [Assignment 2 (Markov Chains)](https://github.com/seqlrn/2-markov-chains)
 - May 9: Assignment 3 (Hidden Markov Models)
 - May 30: Assignment 4 (RNN)
 - June 13: Assignment 5 (Attention)
@@ -49,6 +49,7 @@ _For exact deadlines, refer to the Moodle assignments!_
 - Jurafsky, D and Martin, J: _Speech and Language Processing._ 2017 ([available online](http://web.stanford.edu/~jurafsky/slp3/))
 - Manning, C, Raghavan P and Schütze, H: _Introduction to Information Retrieval_, Cambridge University Press. 2008. ([available online](https://nlp.stanford.edu/IR-book/))
 - Goodfellow, I and Bengio,Y and Courville, A: _Deep Learning._ 2016 ([available online](http://www.deeplearningbook.org/))
+- Schukat-Talamazzini, E.-G. Automatische Spracherkennung. 1995 ([available online](https://www.minet.uni-jena.de/fakultaet/schukat/asebuch.html))
 
 
 ## Syllabus
