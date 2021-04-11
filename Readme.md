@@ -73,9 +73,11 @@ _For exact deadlines, refer to the Moodle assignments!_
 
 > _April 5: no class (Easter)_
 
-- **April 12: Markov Chains**
+- **April 12: Markov Chains** ([slides](/pdf/04-markov-chains.pdf))
 	
 	Learn about Markov chains (aka. n-grams), a simple yet effective approach to learn contexts of distcrete symbols.
+
+	_Required reading_: Schukat-Talamazzini Ch. 7.2.1+2, 7.3
 
 - **April 19: Hidden Markov Models: Basics**
 	
