@@ -79,18 +79,17 @@ _For exact deadlines, refer to the Moodle assignments!_
 
 	_Required reading_: Schukat-Talamazzini Ch. 7.2.1+2, 7.3
 
-- **April 19: Hidden Markov Models: Basics**
-	
+> _April 19: no class_
+
+
+- **April 26: Hidden Markov Models: Basics**
+
 	We'll take a close look at hidden Markov models and how to (efficiently) evaluate and train them.
 	The Viterbi decoding algorithm tells us the most likely sequence and the path that lead to it.
-	
-- **April 26: HMM: Higher-Level Sequence Modeling**
-	
+
+- **May 3: HMM: Higher-Level Sequence Modeling and Decoding**
 	Using one HMM per class, we can do multi-class ("word") recognition.
 	By modeling shared subwords, we can model a large number of classes while keeping the actual number of parameters under control.
-
-- **May 3: HMM: Decoding**
-
 	Learn how to decode sequences of arbitrary length using beam search.
 
 - **May 10: Feed-Forward Neural Networks**
@@ -103,18 +102,20 @@ _For exact deadlines, refer to the Moodle assignments!_
 
 > _May 24: no class (Pentecost)_
 
-- **May 31: Attention**
+- **May 31: Attention and Sequence-to-Sequence**
 
 	Attention is a modeling concept which allows the networks to learn an even better understanding of the context.
 	We'll study them using two examples: language modeling and sentiment analysis.
+	Encoder-decoder networks are a special kind of topology of recurrent neural networks that can be used to model sequence to sequence mappings.
 
 - **June 7: Transformers and Transfer Learning**
 
 	Large-scale self-attention-based Transformer networks can be pretrained on large amounts of unlabaled data before fine-tuning them to actual classification tasks.
 
-- **June 14: Sequence-to-Sequence Learning**
+- **June 14: Reinforcement Learning**
 
-	Encoder-decoder networks are a special kind of topology of recurrent neural networks that can be used to model sequence to sequence mappings.
+	We'll look at a different kind of temporal sequences: actions and rewards in an interactive environment such as board games.
+	We'll start with basic Q-learning and then expand to Deep-Q-Learning.
 	
 > _June 21: no class_
 
