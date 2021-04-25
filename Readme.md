@@ -30,11 +30,11 @@ _Note: Materials will be (mostly) in English, the lectures/tutorials will be tau
 
 ### Important Dates
 
-_For exact deadlines, refer to the Moodle assignments!_
+_Exact deadlines are set on the Moodle assignments!_
 
 - April 11: [Assignment 1 (Dynamic Programming)](https://github.com/seqlrn/1-dynamic-programming)
 - April 25: [Assignment 2 (Markov Chains)](https://github.com/seqlrn/2-markov-chains)
-- May 9: Assignment 3 (Hidden Markov Models)
+- May 16: [Assignment 3 (Hidden Markov Models)](https://github.com/seqlrn/3-hmm)
 - May 30: Assignment 4 (RNN)
 - June 13: Assignment 5 (Attention)
 - June 27: Assignment 6 (Transformers)
@@ -50,6 +50,8 @@ _For exact deadlines, refer to the Moodle assignments!_
 - Manning, C, Raghavan P and Schütze, H: _Introduction to Information Retrieval_, Cambridge University Press. 2008. ([available online](https://nlp.stanford.edu/IR-book/))
 - Goodfellow, I and Bengio,Y and Courville, A: _Deep Learning._ 2016 ([available online](http://www.deeplearningbook.org/))
 - Schukat-Talamazzini, E.-G. Automatische Spracherkennung. 1995 ([available online](https://www.minet.uni-jena.de/fakultaet/schukat/asebuch.html))
+
+**Please note the _required reading_ remarks in the syllabus.**
 
 
 ## Syllabus
@@ -77,20 +79,25 @@ _For exact deadlines, refer to the Moodle assignments!_
 	
 	Learn about Markov chains (aka. n-grams), a simple yet effective approach to learn contexts of distcrete symbols.
 
-	_Required reading_: Schukat-Talamazzini Ch. 7.2.1+2, 7.3
+	_Required reading_: Schukat-Talamazzini Ch. 7.2.{1,2}, 7.3
 
 > _April 19: no class_
 
 
-- **April 26: Hidden Markov Models: Basics**
+- **April 26: Hidden Markov Models: Basics** ([slides](/pdf/hmm.pdf) curtesy of [Elmar Nöth](https://lme.tf.fau.de/person/noeth/))
 
 	We'll take a close look at hidden Markov models and how to (efficiently) evaluate and train them.
 	The Viterbi decoding algorithm tells us the most likely sequence and the path that lead to it.
 
-- **May 3: HMM: Higher-Level Sequence Modeling and Decoding**
+	_Required reading_: Schukat-Talamazzini Ch. 5
+
+- **May 3: HMM: Higher-Level Sequence Modeling and Decoding** ([slides](/pdf/decoding.pdf) curtesy of [Elmar Nöth](https://lme.tf.fau.de/person/noeth/))
+
 	Using one HMM per class, we can do multi-class ("word") recognition.
 	By modeling shared subwords, we can model a large number of classes while keeping the actual number of parameters under control.
 	Learn how to decode sequences of arbitrary length using beam search.
+
+	_Required reading_: Schukat-Talamazzini Ch. 8
 
 - **May 10: Feed-Forward Neural Networks**
 	
@@ -99,6 +106,7 @@ _For exact deadlines, refer to the Moodle assignments!_
 - **May 17: Recurrent Neural Networks**
 
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
+	We look at causes of vanishing gradient, and how it can be mitigated using long short-term memory (LSTM) networks or gated recurrent units (GRUs).
 
 > _May 24: no class (Pentecost)_
 
