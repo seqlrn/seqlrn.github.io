@@ -105,6 +105,7 @@ _Exact deadlines are set on the Moodle assignments!_
 	Namely, we'll look at three concrete examples: Word2Vec, TDNN, ConvNets and HMM-DNN.
 
 	_Strongly recommended: [Deep Learning with PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)_
+	
 	_Required Reading_:
 	- Mikolov et al., 2013. [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
 	- Waibel et al., 1989. [Phoneme Recognition Using Time-Delay Neural Networks](http://www.cs.toronto.edu/~fritz/absps/waibelTDNN.pdf)
