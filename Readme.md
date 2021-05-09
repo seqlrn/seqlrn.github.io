@@ -35,7 +35,7 @@ _Exact deadlines are set on the Moodle assignments!_
 - April 11: [Assignment 1 (Dynamic Programming)](https://github.com/seqlrn/1-dynamic-programming)
 - April 25: [Assignment 2 (Markov Chains)](https://github.com/seqlrn/2-markov-chains)
 - May 16: [Assignment 3 (Hidden Markov Models)](https://github.com/seqlrn/3-hmm)
-- May 30: Assignment 4 (RNN)
+- May 30: [Assignment 4 (Neural Networks)](https://github.com/seqlrn/4-nnets)
 - June 13: Assignment 5 (Attention)
 - June 27: Assignment 6 (Transformers)
 - Week of July 5: oral exams (to be scheduled)
@@ -99,9 +99,17 @@ _Exact deadlines are set on the Moodle assignments!_
 
 	_Required reading_: Schukat-Talamazzini Ch. 8
 
-- **May 10: Feed-Forward Neural Networks**
+- **May 10: Feed-Forward Neural Networks** ([slides pt. 1](/pdf/nnets.pdf) curtesy of Stefan Steidl)
 	
 	After a brief introduction to neural network (fundamentals, topologies and training), we look at how to apply those to sequential data.
+	Namely, we'll look at three concrete examples: Word2Vec, TDNN, ConvNets and HMM-DNN.
+
+	_Strongly recommended: [Deep Learning with PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)_
+	_Required Reading_:
+	- Mikolov et al., 2013. [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
+	- Waibel et al., 1989. [Phoneme Recognition Using Time-Delay Neural Networks](http://www.cs.toronto.edu/~fritz/absps/waibelTDNN.pdf)
+	- LeCun et al., 1998. [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
+
 	
 - **May 17: Recurrent Neural Networks**
 
