@@ -99,7 +99,7 @@ _Exact deadlines are set on the Moodle assignments!_
 
 	_Required reading_: Schukat-Talamazzini Ch. 8
 
-- **May 10: Feed-Forward Neural Networks** ([slides pt. 1](/pdf/nnets.pdf) curtesy of Stefan Steidl)
+- **May 10: Feed-Forward Neural Networks** ([slides pt. 1](/pdf/nnets.pdf) curtesy of Stefan Steidl, [slides pt. 2](/pdf/06b-nnets-sequences.pdf))
 	
 	After a brief introduction to neural network (fundamentals, topologies and training), we look at how to apply those to sequential data.
 	Namely, we'll look at three concrete examples: Word2Vec, TDNN, ConvNets and HMM-DNN.
