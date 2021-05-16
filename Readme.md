@@ -113,10 +113,14 @@ _Exact deadlines are set on the Moodle assignments!_
 	- LeCun et al., 1998. [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 
 	
-- **May 17: Recurrent Neural Networks**
+- **May 17: Recurrent Neural Networks** (slides based on Chris Manning's [cs224n](http://web.stanford.edu/class/cs224n/): slides [1](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture05-rnnlm.pdf), [2](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture06-fancy-rnn.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes05-LM_RNN.pdf); see Moodle for relevant subset)
 
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
 	We look at causes of vanishing gradient, and how it can be mitigated using long short-term memory (LSTM) networks or gated recurrent units (GRUs).
+
+	_Recommended Readings:_ 
+	- [Pascanu et al. "On the difficulty of training recurrent neural networks"](http://proceedings.mlr.press/v28/pascanu13.pdf)
+	- [Chris Olah "Understanding LSTM Networks"](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
 > _May 24: no class (Pentecost)_
 
