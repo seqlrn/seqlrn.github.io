@@ -35,7 +35,7 @@ _Exact deadlines are set on the Moodle assignments!_
 - April 11: [Assignment 1 (Dynamic Programming)](https://github.com/seqlrn/1-dynamic-programming)
 - April 25: [Assignment 2 (Markov Chains)](https://github.com/seqlrn/2-markov-chains)
 - May 16: [Assignment 3 (Hidden Markov Models)](https://github.com/seqlrn/3-hmm)
-- May 30: [Assignment 4 (Neural Networks)](https://github.com/seqlrn/4-nnets)
+- Juyne 6: [Assignment 4 (Neural Networks)](https://github.com/seqlrn/4-nnets) (_note:_ due date updated)
 - June 13: Assignment 5 (Attention)
 - June 27: Assignment 6 (Transformers)
 - Week of July 5: oral exams (to be scheduled)
@@ -124,11 +124,12 @@ _Exact deadlines are set on the Moodle assignments!_
 
 > _May 24: no class (Pentecost)_
 
-- **May 31: Attention and Sequence-to-Sequence**
+- **May 31: Sequence-to-Sequence and Attention** (slides for [ctc](/pdf/ctc.pdf); more slides based on Chris Manning's cs224n NMT [slides](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture07-nmt.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes06-NMT_seq2seq_attention.pdf), see Moodle for relevant subset)
 
-	Attention is a modeling concept which allows the networks to learn an even better understanding of the context.
-	We'll study them using two examples: language modeling and sentiment analysis.
-	Encoder-decoder networks are a special kind of topology of recurrent neural networks that can be used to model sequence to sequence mappings.
+	After a brief digression into _connectionist temporal classification_ (CTC), we'll look neural machine translation (NMT) as a _sequence to sequence_ (seq2seq, s2s) encoder-decoder example, before diving into attention, a modeling concept which allows the networks to learn an even better understanding of the context.
+
+	_Required Readings:_
+	- [Pytorch Seq2Seq Tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
 
 - **June 7: Transformers and Transfer Learning**
 
