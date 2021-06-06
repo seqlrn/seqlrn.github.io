@@ -36,7 +36,7 @@ _Exact deadlines are set on the Moodle assignments!_
 - April 25: [Assignment 2 (Markov Chains)](https://github.com/seqlrn/2-markov-chains)
 - May 16: [Assignment 3 (Hidden Markov Models)](https://github.com/seqlrn/3-hmm)
 - Juyne 6: [Assignment 4 (Neural Networks)](https://github.com/seqlrn/4-nnets) (_note:_ due date updated)
-- June 13: Assignment 5 (Attention)
+- June 20: [Assignment 5 (Attention)](https://github.com/seqlrn/5-attention)
 - June 27: Assignment 6 (Transformers)
 - Week of July 5: oral exams (to be scheduled)
 
@@ -119,8 +119,8 @@ _Exact deadlines are set on the Moodle assignments!_
 	We look at causes of vanishing gradient, and how it can be mitigated using long short-term memory (LSTM) networks or gated recurrent units (GRUs).
 
 	_Recommended Readings:_ 
-	- [Pascanu et al. "On the difficulty of training recurrent neural networks"](http://proceedings.mlr.press/v28/pascanu13.pdf)
-	- [Chris Olah "Understanding LSTM Networks"](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+	- Pascanu et al. "[On the difficulty of training recurrent neural networks](http://proceedings.mlr.press/v28/pascanu13.pdf)"
+	- Chris Olah "[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)"
 
 > _May 24: no class (Pentecost)_
 
@@ -131,9 +131,13 @@ _Exact deadlines are set on the Moodle assignments!_
 	_Required Readings:_
 	- [Pytorch Seq2Seq Tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
 
-- **June 7: Transformers and Transfer Learning**
+- **June 7: Transformers and Transfer Learning** (slides based on Chris Mannings and John Hewitt's cs224n [slides]](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture09-transformers.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes07-QA.pdf); see Moodle for relevant subset)
 
 	Large-scale self-attention-based Transformer networks can be pretrained on large amounts of unlabaled data before fine-tuning them to actual classification tasks.
+
+	_Recommended Readings:_
+	- Vaswani et al. "[Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf)"
+	- Jay Alammar "[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)"
 
 - **June 14: Reinforcement Learning**
 
