@@ -131,25 +131,26 @@ _Exact deadlines are set on the Moodle assignments!_
 	_Required Readings:_
 	- [Pytorch Seq2Seq Tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
 
-- **June 7: Transformers and Transfer Learning** (slides based on Chris Mannings and John Hewitt's cs224n [slides]](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture09-transformers.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes07-QA.pdf); see Moodle for relevant subset)
+- **June 7: Self-Attention and Transformers** (slides based on Chris Mannings and John Hewitt's cs224n [slides](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture09-transformers.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes07-QA.pdf); see Moodle for relevant subset)
 
-	Large-scale self-attention-based Transformer networks can be pretrained on large amounts of unlabaled data before fine-tuning them to actual classification tasks.
+	We'll revisit attention and have a closer look how self-attention and positional encodings as a more efficient way to look at sequence context.
+	Transformers use self- and cross-attention (and a number of other tricks) to form a recurrence-free network topology that can be efficiently trained.
 
 	_Recommended Readings:_
 	- Vaswani et al. "[Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf)"
 	- Jay Alammar "[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)"
 
-- **June 14: Reinforcement Learning**
+- **June 14: Pre-Training and Transfer Learning**
 
-	We'll look at a different kind of temporal sequences: actions and rewards in an interactive environment such as board games.
-	We'll start with basic Q-learning and then expand to Deep-Q-Learning.
+	We'll look back at some occasions where we already used pre-training, maybe without realizing it.
+	The concept of masking together with pseudo-targets allow us to leverage large amounts of unlabeled data to pre-train large models, before fine-tuning them to the actual tasks.
 	
 > _June 21: no class_
 
-- **June 28: Anomaly Detection**
+- **June 28: Reinforcement Learning**
 
-	We look at algorithms to detect anomalies in sequences of data.
-	We'll start with basic algorithms as BUTLA and OTALA, and extend to auto-encoder based approaches.
+	We'll look at a different kind of temporal sequences: actions and rewards in an interactive environment such as board games.
+	We'll start with basic Q-learning and then expand to Deep-Q-Learning.
 
 - Week of July 5: Oral Exams
 
