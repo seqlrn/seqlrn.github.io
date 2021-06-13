@@ -140,7 +140,7 @@ _Exact deadlines are set on the Moodle assignments!_
 	- Vaswani et al. "[Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf)"
 	- Jay Alammar "[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)"
 
-- **June 14: Pre-Training and Transfer Learning**
+- **June 14: Pre-Training and Transfer Learning** (slides based on Chris Mannings and John Hewitt's cs224n [slides](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture10-pretraining.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes07-QA.pdf); see Moodle for relevant subset)
 
 	We'll look back at some occasions where we already used pre-training, maybe without realizing it.
 	The concept of masking together with pseudo-targets allow us to leverage large amounts of unlabeled data to pre-train large models, before fine-tuning them to the actual tasks.
