@@ -144,6 +144,12 @@ _Exact deadlines are set on the Moodle assignments!_
 
 	We'll look back at some occasions where we already used pre-training, maybe without realizing it.
 	The concept of masking together with pseudo-targets allow us to leverage large amounts of unlabeled data to pre-train large models, before fine-tuning them to the actual tasks.
+
+	_Required Readings:_
+	- Devlin et al. "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)"
+
+	_Recommended Readings:_
+	- Radford et al. "[Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)"
 	
 > _June 21: no class_
 
