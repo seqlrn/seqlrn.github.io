@@ -136,6 +136,9 @@ _Exact deadlines are set on the Moodle assignments!_
 	We'll revisit attention and have a closer look how self-attention and positional encodings as a more efficient way to look at sequence context.
 	Transformers use self- and cross-attention (and a number of other tricks) to form a recurrence-free network topology that can be efficiently trained.
 
+	_Required Readings:_
+	- Łukasz Kaiser: [Attention is all you need](https://www.youtube.com/watch?v=rBCqOTEfxvg), esp. at 15:45ff.
+
 	_Recommended Readings:_
 	- Vaswani et al. "[Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf)"
 	- Jay Alammar "[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)"
