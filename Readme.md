@@ -36,9 +36,9 @@ _Exact deadlines are set on the Moodle assignments!_
 - April 25: [Assignment 2 (Markov Chains)](https://github.com/seqlrn/2-markov-chains)
 - May 16: [Assignment 3 (Hidden Markov Models)](https://github.com/seqlrn/3-hmm)
 - Juyne 6: [Assignment 4 (Neural Networks)](https://github.com/seqlrn/4-nnets) (_note:_ due date updated)
-- June 20: [Assignment 5 (Attention)](https://github.com/seqlrn/5-attention)
-- June 27: Assignment 6 (Transformers)
-- Week of July 5: oral exams (to be scheduled)
+- June 27: [Assignment 5 (Attention)](https://github.com/seqlrn/5-attention) (_note:_ due date updated)
+- June 27: [Assignment 6 (Transformers)](https://github.com/seqlrn/6-transformers)
+- Week of July 5: oral exams; **schedule was distributed via email!**
 
 
 ## Recommended Textbooks
