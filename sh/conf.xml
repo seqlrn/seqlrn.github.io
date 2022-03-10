@@ -1,0 +1,65 @@
+<jstkconfig>
+    <!--configuration generated at Sun May 02 23:00:40 CEST 2021-->
+    <alphabet>
+        <token n="uw" s="3"/>
+        <token n="eh" s="2"/>
+        <token n="f" s="2"/>
+        <token n="ah" s="2"/>
+        <token n="ow" s="4"/>
+        <token n="k" s="2"/>
+        <token n="ao" s="3"/>
+        <token n="n" s="2"/>
+        <token n="iy" s="3"/>
+        <token n="r" s="2"/>
+        <token n="s" s="2"/>
+        <token n="ey" s="3"/>
+        <token n="t" s="2"/>
+        <token n="th" s="2"/>
+        <token n="si" s="3"/>
+        <token n="v" s="2"/>
+        <token n="w" s="3"/>
+        <token n="ay" s="3"/>
+        <token n="y" s="3"/>
+        <token n="z" s="3"/>
+        <token n="ih" s="2"/>
+    </alphabet>
+    <tokenizer>
+        <tokenization t="ey t" w="eight"/>
+        <tokenization t="f ay v" w="five"/>
+        <tokenization t="f ao r" w="four"/>
+        <tokenization t="n ay n" w="nine"/>
+        <tokenization t="n ow" w="no"/>
+        <tokenization t="ow" w="oh"/>
+        <tokenization t="w ah n" w="one"/>
+        <tokenization t="s eh v ah n" w="seven"/>
+        <tokenization t="si" w="sil"/>
+        <tokenization t="s ih k s" w="six"/>
+        <tokenization t="th r iy" w="three"/>
+        <tokenization t="t uw" w="two"/>
+        <tokenization t="y eh s" w="yes"/>
+        <tokenization t="z ih r ow" w="zero"/>
+    </tokenizer>
+    <hierarchy>
+        <token h="6" l="" n="uw" r=""/>
+        <token h="9" l="" n="eh" r=""/>
+        <token h="16" l="" n="f" r=""/>
+        <token h="12" l="" n="ah" r=""/>
+        <token h="11" l="" n="ow" r=""/>
+        <token h="14" l="" n="k" r=""/>
+        <token h="0" l="" n="ao" r=""/>
+        <token h="13" l="" n="n" r=""/>
+        <token h="3" l="" n="iy" r=""/>
+        <token h="10" l="" n="r" r=""/>
+        <token h="8" l="" n="s" r=""/>
+        <token h="17" l="" n="ey" r=""/>
+        <token h="7" l="" n="t" r=""/>
+        <token h="18" l="" n="th" r=""/>
+        <token h="5" l="" n="v" r=""/>
+        <token h="19" l="" n="si" r=""/>
+        <token h="4" l="" n="w" r=""/>
+        <token h="20" l="" n="ay" r=""/>
+        <token h="2" l="" n="y" r=""/>
+        <token h="1" l="" n="z" r=""/>
+        <token h="15" l="" n="ih" r=""/>
+    </hierarchy>
+</jstkconfig>
