@@ -5,7 +5,7 @@ _Elective for [CS grad students](https://www.th-nuernberg.de/fakultaeten/in/stud
 
 ## Class Schedule and Credits
 
-**Time and Location:** Mondays at 11.30a (HQ.406)
+**Time and Location:** Mondays at 11.30a (**HQ.104**) 
 
 **Announcements and Discussions:** [Moodle Course #5312](https://elearning.ohmportal.de/course/view.php?id=5312)
 
@@ -62,6 +62,7 @@ _Exact deadlines are set on the Moodle assignments!_
 
 	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning, as well as some of our related research projects.
+	Assignments: Make 
 
 - **March 28: Comparing Sequences** ([slides](/pdf/dp_and_edit_dist.pdf))
 	
