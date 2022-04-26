@@ -34,10 +34,10 @@ _Exact deadlines are set on the Moodle assignments!_
 
 
 - April 11: [Assignment 1 (Dynamic Programming)](https://github.com/seqlrn/1-dynamic-programming)
-- April 25: [Assignment 2 (Markov Chains)](https://github.com/seqlrn/2-markov-chains)
-- May 9: [Assignment 3 (Hidden Markov Models)](https://github.com/seqlrn/3-hmm)
-- May 30: [Assignment 4 (Neural Networks)](https://github.com/seqlrn/4-nnets) (_note:_ due date updated)
-- June 13: [Assignment 5 (Attention)](https://github.com/seqlrn/5-attention) (_note:_ due date updated)
+- May 2: [Assignment 2 (Markov Chains)](https://github.com/seqlrn/2-markov-chains) (_note:_ due date updated)
+- May 16: [Assignment 3 (Hidden Markov Models)](https://github.com/seqlrn/3-hmm)
+- May 30: [Assignment 4 (Neural Networks)](https://github.com/seqlrn/4-nnets)
+- June 13: [Assignment 5 (Attention)](https://github.com/seqlrn/5-attention)
 - June 27: [Assignment 6 (Transformers)](https://github.com/seqlrn/6-transformers)
 - Week of July 4: oral exams
 
@@ -102,10 +102,10 @@ _Exact deadlines are set on the Moodle assignments!_
 
 	_Required reading_: Schukat-Talamazzini Ch. 8
 
-- **May 9: Feed-Forward Neural Networks** ([slides pt. 1](/pdf/nnets.pdf) curtesy of Stefan Steidl, [slides pt. 2](/pdf/06b-nnets-sequences.pdf))
+- **May 9: Feed-Forward Neural Networks** (slides tbd)
 	
 	After a brief introduction to neural network (fundamentals, topologies and training), we look at how to apply those to sequential data.
-	Namely, we'll look at three concrete examples: Word2Vec, TDNN, ConvNets and HMM-DNN.
+	Namely, we'll look at three concrete examples: Word2Vec, fasttext, TDNN, ConvNets and HMM-DNN.
 
 	_Strongly recommended: [Deep Learning with PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)_
 	
@@ -116,7 +116,7 @@ _Exact deadlines are set on the Moodle assignments!_
 	- LeCun et al., 1998. [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 
 	
-- **May 16: Recurrent Neural Networks** (slides based on Chris Manning's [cs224n](http://web.stanford.edu/class/cs224n/): slides [1](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture05-rnnlm.pdf), [2](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture06-fancy-rnn.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes05-LM_RNN.pdf); see Moodle for relevant subset)
+- **May 16: Recurrent Neural Networks** (slides tbd)
 
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
 	We look at causes of vanishing gradient, and how it can be mitigated using long short-term memory (LSTM) networks or gated recurrent units (GRUs).
@@ -126,31 +126,19 @@ _Exact deadlines are set on the Moodle assignments!_
 	- Chris Olah "[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)"
 
 
-- **May 23: Sequence-to-Sequence and Attention** (slides for [ctc](/pdf/ctc.pdf); more slides based on Chris Manning's cs224n NMT [slides](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture07-nmt.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes06-NMT_seq2seq_attention.pdf), see Moodle for relevant subset)
+- **May 23: Sequence-to-Sequence, Attention and Transformers** (slides tbd)
 
 	After a brief digression into _connectionist temporal classification_ (CTC), we'll look neural machine translation (NMT) as a _sequence to sequence_ (seq2seq, s2s) encoder-decoder example, before diving into attention, a modeling concept which allows the networks to learn an even better understanding of the context.
 
 	_Required Readings:_
 	- [Pytorch Seq2Seq Tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
-
-
-- **May 30: Self-Attention and Transformers** (slides based on Chris Mannings and John Hewitt's cs224n [slides](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture09-transformers.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes07-QA.pdf); see Moodle for relevant subset)
-
-	We'll revisit attention and have a closer look how self-attention and positional encodings as a more efficient way to look at sequence context.
-	Transformers use self- and cross-attention (and a number of other tricks) to form a recurrence-free network topology that can be efficiently trained.
-
-	_Required Readings:_
 	- Łukasz Kaiser: [Attention is all you need](https://www.youtube.com/watch?v=rBCqOTEfxvg), esp. at 15:45ff.
 
 	_Recommended Readings:_
 	- Vaswani et al. "[Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf)"
 	- Jay Alammar "[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)"
 
-
-> _June 6: no class (Pentecost)_
-
-
-- **June 13: Pre-Training and Transfer Learning** (slides based on Chris Mannings and John Hewitt's cs224n [slides](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture10-pretraining.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes07-QA.pdf); see Moodle for relevant subset)
+- **May 30: Pre-Training and Transfer Learning** (slides based on Chris Mannings and John Hewitt's cs224n [slides](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture10-pretraining.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes07-QA.pdf); see Moodle for relevant subset)
 
 	We'll look back at some occasions where we already used pre-training, maybe without realizing it.
 	The concept of masking together with pseudo-targets allow us to leverage large amounts of unlabeled data to pre-train large models, before fine-tuning them to the actual tasks.
@@ -160,15 +148,21 @@ _Exact deadlines are set on the Moodle assignments!_
 
 	_Recommended Readings:_
 	- Radford et al. "[Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)"
+
+> _June 6: no class (Pentecost)_
+
+
+- **June 13: Important Transformer Architectures** (slides tbd)
+	
+	BERT, Wav2Vec2.0, Data2Vec
 	
 
 > _June 20: no class_
 
 
-- **June 27: Reinforcement Learning**
+- **June 27: RNN-T**
 
-	We'll look at a different kind of temporal sequences: actions and rewards in an interactive environment such as board games.
-	We'll start with basic Q-learning and then expand to Deep-Q-Learning.
+	_tbd_
 
 - Week of July 5: Oral Exams
 
