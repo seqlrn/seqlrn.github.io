@@ -102,9 +102,9 @@ _Exact deadlines are set on the Moodle assignments!_
 
 	_Required reading_: Schukat-Talamazzini Ch. 8
 
-- **May 9: Feed-Forward Neural Networks** (slides tbd)
+- **May 9: Feed-Forward Neural Networks** ([slides](/pdf/6-nnets.pdf))
 	
-	After a brief introduction to neural network (fundamentals, topologies and training), we look at how to apply those to sequential data.
+	After a brief recap of neural networks (fundamentals, topologies and training), we look at how to apply those to sequential data.
 	Namely, we'll look at three concrete examples: Word2Vec, fasttext, TDNN, ConvNets and HMM-DNN.
 
 	_Strongly recommended: [Deep Learning with PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)_
