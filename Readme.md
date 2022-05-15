@@ -116,7 +116,7 @@ _Exact deadlines are set on the Moodle assignments!_
 	- LeCun et al., 1998. [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 
 	
-- **May 16: Recurrent Neural Networks** (slides tbd)
+- **May 16: Recurrent Neural Networks** ([slides](/pdf/07-rnn.pdf))
 
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
 	We look at causes of vanishing gradient, and how it can be mitigated using long short-term memory (LSTM) networks or gated recurrent units (GRUs).
