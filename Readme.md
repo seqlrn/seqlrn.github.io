@@ -126,7 +126,7 @@ _Exact deadlines are set on the Moodle assignments!_
 	- Chris Olah "[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)"
 
 
-- **May 23: Sequence-to-Sequence, Attention and Transformers** (slides tbd)
+- **May 23: Sequence-to-Sequence, Attention and Transformers** ([slides](/pdf/08-attn.pdf))
 
 	After a brief digression into _connectionist temporal classification_ (CTC), we'll look neural machine translation (NMT) as a _sequence to sequence_ (seq2seq, s2s) encoder-decoder example, before diving into attention, a modeling concept which allows the networks to learn an even better understanding of the context.
 
