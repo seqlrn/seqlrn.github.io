@@ -152,10 +152,14 @@ _Exact deadlines are set on the Moodle assignments!_
 > _June 6: no class (Pentecost)_
 
 
-- **June 13: Important Transformer Architectures** (slides tbd)
-	
-	BERT, Wav2Vec2.0, Data2Vec
-	
+- **June 13: Important Transformer Architectures** ([slides](/pdf/09-important-transformers.pdf))
+BERT, Wav2Vec2.0, Data2Vec
+
+	_Required Readings:_
+    - [wav2vec: Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/1904.05862)
+
+	_Recommended Readings:_
+    - [data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](https://arxiv.org/abs/2202.03555)
 
 > _June 20: no class_
 
