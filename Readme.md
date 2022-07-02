@@ -39,7 +39,7 @@ _Exact deadlines are set on the Moodle assignments!_
 - May 30: [Assignment 4 (Neural Networks)](https://github.com/seqlrn/4-nnets)
 - June 13: [Assignment 5 (Attention)](https://github.com/seqlrn/5-attention)
 - June 27: [Assignment 6 (Transformers)](https://github.com/seqlrn/6-transformers)
-- Week of July 4: oral exams
+- July 14+15: oral exams (see schedule on Moodle)
 
 
 ## Recommended Textbooks
@@ -138,16 +138,7 @@ _Exact deadlines are set on the Moodle assignments!_
 	- Vaswani et al. "[Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf)"
 	- Jay Alammar "[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)"
 
-- **May 30: Pre-Training and Transfer Learning** (slides based on Chris Mannings and John Hewitt's cs224n [slides](http://web.stanford.edu/class/cs224n/slides/cs224n-2021-lecture10-pretraining.pdf) and [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes07-QA.pdf); see Moodle for relevant subset)
-
-	We'll look back at some occasions where we already used pre-training, maybe without realizing it.
-	The concept of masking together with pseudo-targets allow us to leverage large amounts of unlabeled data to pre-train large models, before fine-tuning them to the actual tasks.
-
-	_Required Readings:_
-	- Devlin et al. "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)"
-
-	_Recommended Readings:_
-	- Radford et al. "[Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)"
+- _May 30: (class cancelled)_
 
 > _June 6: no class (Pentecost)_
 
@@ -156,19 +147,28 @@ _Exact deadlines are set on the Moodle assignments!_
 BERT, Wav2Vec2.0, Data2Vec
 
 	_Required Readings:_
+	- Devlin et al. "[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)"
     - [wav2vec: Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/1904.05862)
 
 	_Recommended Readings:_
     - [data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](https://arxiv.org/abs/2202.03555)
+    - Radford et al. "[Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)"
 
 > _June 20: no class_
 
 
-- **June 27: RNN-T**
+- **June 27: CTC, RNN-T** (slides based on [CMU's 11-785 Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/S22/index.html), Lec. 17; GA Tech's cs7643, [Lec. 24](https://www.cc.gatech.edu/classes/AY2021/cs7643_spring/assets/L24_rnnt_asr_tutorial_gt.pdf); see Moodle for relevant subsets)
 
-	_tbd_
+	We'll look at how to train sequence-to-sequence networks for M:N mappings with a monotonic alignment by computing implicit alignments, just as we did with the forward-backward algorithm with HMMs.
+	As a final topic, we'll look at the RNN-T(ransducer) architecture, which combines the benefits of CTC and full-sequence transformers (e.g. Listen-Attend-Spell).
 
-- Week of July 5: Oral Exams
+	_Required Readings:_
+	- Graves et al., 2006. [Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks](https://www.cs.toronto.edu/~graves/icml_2006.pdf)
+
+	- Loren Lugosch's [Introduction to RNN-T](https://lorenlugosch.github.io/posts/2020/11/transducer/)
+	- Graves et al., 2012. [Sequence Transduction with Recurrent Neural Networks](https://arxiv.org/abs/1211.3711)
+
+- Week of July 5: no class; oral exams on July 14+15 (see schedule on Moodle)
 
 
 _Subscribe to [https://github.com/sikoried/sequence-learning/](https://github.com/seqlrn/seqlrn.github.io/) to follow updates._
