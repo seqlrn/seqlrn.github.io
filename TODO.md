@@ -1,0 +1,2 @@
+- python, numpy und pytorch tutorial
+- Integrated Gradient for Attention
