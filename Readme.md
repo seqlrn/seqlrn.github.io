@@ -63,7 +63,7 @@ _Exact deadlines are set on the Moodle assignments!_
 	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning, as well as some of our related research projects.
 
-- **March 28: Comparing Sequences** ([slides](/pdf/dp_and_edit_dist.pdf))
+- **March 28: Comparing Sequences** ([slides](/pdf/dp_and_edit_dist.pdf), [Assignment 1: 1-3](https://github.com/seqlrn/1-dynamic-programming))
 	
 	We'll start with looking at discrete sequences and how to (pair-wise)compare them using dynamic programming algorithms.
 
@@ -71,10 +71,12 @@ _Exact deadlines are set on the Moodle assignments!_
 
 	_Required reading_: Chao/Zhang Ch. 1.2 through 1.4, 2.4 and 3.
 
-- **April 4: Cost Functions and States** ([slides](/pdf/03-costs-states.pdf))
+- **April 4: Cost Functions and States** ([slides](/pdf/03-costs-states.pdf), [Assignment 1: 4-5](https://github.com/seqlrn/1-dynamic-programming))
 	
 	We'll look at more fine-grained ways of modeling distances and similarities.
 	Understand how DP can be used on an abstraction of states, and how that can be used for simple sequence decoding.
+
+	**Tutorials moved to HQ.111** (ICS Infoveranstaltung)
 
 > _April 11: no class (Easter)_
 
