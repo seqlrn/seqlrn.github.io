@@ -63,7 +63,7 @@ _Exact deadlines are set on the Moodle assignments!_
 	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning, as well as some of our related research projects.
 
-- **March 28: Comparing Sequences** ([slides](/pdf/dp_and_edit_dist.pdf), [Assignment 1: 1-3](https://github.com/seqlrn/1-dynamic-programming))
+- **March 28: Comparing Sequences** ([slides](/pdf/dp_and_edit_dist.pdf), [Assignment 1: 1-2](https://github.com/seqlrn/1-dynamic-programming))
 	
 	We'll start with looking at discrete sequences and how to (pair-wise)compare them using dynamic programming algorithms.
 
@@ -71,7 +71,7 @@ _Exact deadlines are set on the Moodle assignments!_
 
 	_Required reading_: Chao/Zhang Ch. 1.2 through 1.4, 2.4 and 3.
 
-- **April 4: Cost Functions and States** ([slides](/pdf/03-costs-states.pdf), [Assignment 1: 4-5](https://github.com/seqlrn/1-dynamic-programming))
+- **April 4: Cost Functions and States** ([slides](/pdf/03-costs-states.pdf), [Assignment 1: 3-5](https://github.com/seqlrn/1-dynamic-programming))
 	
 	We'll look at more fine-grained ways of modeling distances and similarities.
 	Understand how DP can be used on an abstraction of states, and how that can be used for simple sequence decoding.
@@ -119,8 +119,10 @@ _Exact deadlines are set on the Moodle assignments!_
 	- Waibel et al., 1989. [Phoneme Recognition Using Time-Delay Neural Networks](http://www.cs.toronto.edu/~fritz/absps/waibelTDNN.pdf)
 	- LeCun et al., 1998. [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 
-	
-- **May 16: Recurrent Neural Networks** ([slides](/pdf/07-rnn.pdf))
+
+- _No class on May 16._
+
+- **May 23: Recurrent Neural Networks** ([slides](/pdf/07-rnn.pdf))
 
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
 	We look at causes of vanishing gradient, and how it can be mitigated using long short-term memory (LSTM) networks or gated recurrent units (GRUs).
@@ -130,7 +132,9 @@ _Exact deadlines are set on the Moodle assignments!_
 	- Chris Olah "[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)"
 
 
-- **May 23: Sequence-to-Sequence, Attention and Transformers** ([slides](/pdf/08-attn.pdf))
+- _May 30: no class (Pentecost)_
+
+- **Juni 6: Sequence-to-Sequence, Attention and Transformers** ([slides](/pdf/08-attn.pdf))
 
 	We'll look at neural machine translation (NMT) as a _sequence to sequence_ (seq2seq, s2s) encoder-decoder example, before diving into attention, a modeling concept which allows the networks to learn an even better understanding of the context.
 
@@ -142,10 +146,8 @@ _Exact deadlines are set on the Moodle assignments!_
 	- Vaswani et al. "[Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf)"
 	- Jay Alammar "[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)"
 
-- _May 30: no class (Pentecost)_
 
-
-- **June 6: Important Transformer Architectures** ([slides](/pdf/09-important-transformers.pdf))
+- **June 13: Important Transformer Architectures** ([slides](/pdf/09-important-transformers.pdf))
 BERT, Wav2Vec2.0, Data2Vec
 
 	_Required Readings:_
@@ -157,7 +159,7 @@ BERT, Wav2Vec2.0, Data2Vec
     - Radford et al. "[Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)"
 
 
-- **June 13: CTC, RNN-T** (slides based on [CMU's 11-785 Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/S22/index.html), Lec. 17; GA Tech's cs7643, [Lec. 24](https://www.cc.gatech.edu/classes/AY2021/cs7643_spring/assets/L24_rnnt_asr_tutorial_gt.pdf); see Moodle for relevant subsets)
+- **June 20: CTC, RNN-T** (slides based on [CMU's 11-785 Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/S22/index.html), Lec. 17; GA Tech's cs7643, [Lec. 24](https://www.cc.gatech.edu/classes/AY2021/cs7643_spring/assets/L24_rnnt_asr_tutorial_gt.pdf); see Moodle for relevant subsets)
 
 	We'll look at how to train sequence-to-sequence networks for M:N mappings with a monotonic alignment by computing implicit alignments, just as we did with the forward-backward algorithm with HMMs.
 	As a final topic, we'll look at the RNN-T(ransducer) architecture, which combines the benefits of CTC and full-sequence transformers (e.g. Listen-Attend-Spell).
@@ -168,15 +170,13 @@ BERT, Wav2Vec2.0, Data2Vec
 	- Loren Lugosch's [Introduction to RNN-T](https://lorenlugosch.github.io/posts/2020/11/transducer/)
 	- Graves et al., 2012. [Sequence Transduction with Recurrent Neural Networks](https://arxiv.org/abs/1211.3711)
 
-- **June 20: GPT**
+- **June 27: GPT**
 
 	We'll talk about the generative pretrained transformers and how a first proof-of-concept evolved to GPT-3.
-
-- **June 27: Recap**
-
 	**Note: Tutorials rescheduled 1-2pm (SVA LUST)**
+	
 
-> _July 5: no class_
+> _July 5: tbd_
 
 - **Week 28: Oral Exams** (most likely July 11+12)
 
