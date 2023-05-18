@@ -35,10 +35,10 @@ _Exact deadlines are set on the Moodle assignments!_
 
 - April 17: [Assignment 1 (Dynamic Programming)](https://github.com/seqlrn/1-dynamic-programming)
 - May 1: [Assignment 2 (Markov Chains)](https://github.com/seqlrn/2-markov-chains) (_note:_ due date updated)
-- May 8: [Assignment 3 (Hidden Markov Models)](https://github.com/seqlrn/3-hmm)
-- May 22: [Assignment 4 (Neural Networks)](https://github.com/seqlrn/4-nnets)
-- June 12: [Assignment 5 (Attention)](https://github.com/seqlrn/5-attention)
-- June 19: [Assignment 6 (Transformers)](https://github.com/seqlrn/6-transformers)
+- May 15: [Assignment 3 (Hidden Markov Models)](https://github.com/seqlrn/3-hmm)
+- June 5: [Assignment 4 (Neural Networks)](https://github.com/seqlrn/4-nnets)
+- June 19: [Assignment 5 (Attention)](https://github.com/seqlrn/5-attention)
+- June 26: [Assignment 6 (Transformers)](https://github.com/seqlrn/6-transformers)
 - Week 28: oral exams
 
 
