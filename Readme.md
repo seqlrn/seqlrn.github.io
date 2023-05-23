@@ -159,7 +159,13 @@ BERT, Wav2Vec2.0, Data2Vec
     - Radford et al. "[Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)"
 
 
-- **June 20: CTC, RNN-T** (slides based on [CMU's 11-785 Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/S22/index.html), Lec. 17; GA Tech's cs7643, [Lec. 24](https://www.cc.gatech.edu/classes/AY2021/cs7643_spring/assets/L24_rnnt_asr_tutorial_gt.pdf); see Moodle for relevant subsets)
+- **June 20: GPT** 
+
+	We'll talk about the generative pretrained transformers and how a first proof-of-concept evolved to GPT-3.
+	
+
+
+- **June 27: CTC, RNN-T** (slides based on [CMU's 11-785 Introduction to Deep Learning](https://deeplearning.cs.cmu.edu/S22/index.html), Lec. 17; GA Tech's cs7643, [Lec. 24](https://www.cc.gatech.edu/classes/AY2021/cs7643_spring/assets/L24_rnnt_asr_tutorial_gt.pdf); see Moodle for relevant subsets)
 
 	We'll look at how to train sequence-to-sequence networks for M:N mappings with a monotonic alignment by computing implicit alignments, just as we did with the forward-backward algorithm with HMMs.
 	As a final topic, we'll look at the RNN-T(ransducer) architecture, which combines the benefits of CTC and full-sequence transformers (e.g. Listen-Attend-Spell).
@@ -169,16 +175,12 @@ BERT, Wav2Vec2.0, Data2Vec
 
 	- Loren Lugosch's [Introduction to RNN-T](https://lorenlugosch.github.io/posts/2020/11/transducer/)
 	- Graves et al., 2012. [Sequence Transduction with Recurrent Neural Networks](https://arxiv.org/abs/1211.3711)
-
-- **June 27: GPT**
-
-	We'll talk about the generative pretrained transformers and how a first proof-of-concept evolved to GPT-3.
 	**Note: Tutorials rescheduled 1-2pm (SVA LUST)**
 	
+	
 
-> _July 5: tbd_
+> July 3: Oral Exams
 
-- **Week 28: Oral Exams** (most likely July 11+12)
 
 
 _Subscribe to [https://github.com/sikoried/sequence-learning/](https://github.com/seqlrn/seqlrn.github.io/) to follow updates._
