@@ -159,7 +159,7 @@ BERT, Wav2Vec2.0, Data2Vec
     - Radford et al. "[Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)"
 
 
-- **June 20: GPT** 
+- **June 20: GPT ([slides](/pdf/GSERM-DL-09-gpt-transfer.pdf))** 
 
 	We'll talk about the generative pretrained transformers and how a first proof-of-concept evolved to GPT-3.
 	
