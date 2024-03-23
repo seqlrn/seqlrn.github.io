@@ -3,3 +3,5 @@
 - GPT
 - RL, Deep RL, HITL-DRL
 - Seminarerweiterung (statt Übung?) Aktuelle Papiere zu Themen vorbereiten?
+- https://lorenlugosch.github.io/posts/2020/11/transducer/
+- https://github.com/urchade/GLiNER

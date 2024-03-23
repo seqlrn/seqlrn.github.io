@@ -5,11 +5,10 @@
 html, body { height: 100%; }
 
 body {
-  /* font-family: Helvetica, Arial, sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 300;
   background-color: #fff;
 }
 
@@ -20,17 +19,78 @@ a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
 
 
+p {
+  text-align: justify;
+}
+
+#header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #c72426;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  /* font-weight: 300; */
+  font-weight: bold;
+  color: #8c1515;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lhead {
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.litem {
+  margin-top: 5px;
+}
+
 /* Utility */
 
 .wrap:before,
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 800px;
+  max-width: 1024px;
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
 }
+
+
+  
+thead tr {
+  background-color: silver;
+  font-weight: bold;
+}
+
+/* Make each row look like a card */
+tr {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 2px 2px 1px #dadada;
+  border: 1px solid #ccc;
+}
+
+tr:nth-child(even) { background-color: whitesmoke; }
+
+td {
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+
 
 
 /* Layout Styles */
