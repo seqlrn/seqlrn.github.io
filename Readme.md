@@ -62,7 +62,7 @@ May 27	| nnets3: s2s, Attn, CTC, RNN-T; intro A7; tranformers: basics, architect
 June 3	| discussion A6 & A7; Q&A A8	| 	| 	| [A6 nnet2] [A7 nnet3]
 June 10	| LLMs as foundation models: benchmarks, GPT, BPE, data (pretraining and fine-tuning), instructGPT, RLHL; intro A9; conditioning of transformers: zero-/few-shot, CoT	| 	[road to gpt](/pdf/10-gpt.pdf) | 	| 
 June 17	| discussion A8; Q&A A9 & A10	| 	| 	| 
-June 24	| reinforcement learning; discussion A9 & A10; intro A11	| 	| 	| [A9 transformers] [A10 function calling]
+June 24	| reinforcement learning; discussion A9 & A10; intro A11	| [reinforcement learning](/pdf/11-reinforcement-learning.pdf)	| 	| [A9 transformers] [A10 function calling]
 July 1	| recap; discussion A11	| 	| 	| [A11 rl]
 July 8	| no class (Berufungsverfahren AMP)	| 	| 	| 
 KW27 	| oral exams (tba)	| 	| 	| 
