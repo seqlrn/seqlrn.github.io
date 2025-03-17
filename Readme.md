@@ -3,13 +3,13 @@ _Elective for [CS graduate students](https://www.th-nuernberg.de/fakultaeten/in/
 
 ## Class Schedule and Credits
 
-**Time and Location:** Mondays at 9.45a (**HQ.467**) 
+**Time and Location:**  Mondays & Tuesdays at 11.30a (**SP.467**)
 
-**Announcements and Discussions:** Join on Teams wih code: `y6n8dbx`.
+**Announcements and Discussions:** Join on Teams wih code: `endtu0s`.
 
 Each week, we will discuss algorithms and their theory before implementing them to get a better hands-on understanding.
 The materials consist of a mix of required and recommended readings, slides as well as a set of mandatory programming and analysis assignments.
-Pair-programming encouraged, [_BYOD_](https://en.wikipedia.org/wiki/Bring_your_own_device) strongly recommended!
+Pair programming encouraged, [_BYOD_](https://en.wikipedia.org/wiki/Bring_your_own_device) strongly recommended!
 
 
 ### Assignments
@@ -49,23 +49,38 @@ _Note: Materials will be (mostly) in English, the lectures/tutorials will be tau
 
 | Date | Topic | Required Reading | Materials | Assignment due |
 |------|-------|------------------|-----------|----------------|
-March 25	| comparing sequences: ED/Levenshtein, NW, DTW, modeling cost; intro A1	| Chao/Zhang Ch. 1.2 through 1.4, 2.4 and 3.	| [introduction](/pdf/00-introduction.pdf), [comparing sequences](/pdf/01-comparing-sequences.pdf)	| 
-April 1	| no class (Easter)	| 	| 	| 
-April 8	| Markov chains: statistical modeling of discrete sequences; discussion A1, intro A2	| Schukat-Talamazzini Ch. 7.2.{1,2}, 7.3	| [markov chains](/pdf/02-markov-chains.pdf)	| [A1 Dynamic Programming](https://github.com/seqlrn/assignments/tree/master/1-dynamic-programming)
-April 15	| HMM1: basics, BW, time-alignments; intro A3; HMM2: Viterbi, beam-decoding, higher order modeling; intro A4	| Schukat-Talamazzini Ch. 5 & 8	| [HMM](/pdf/hmm.pdf), [decoding](/pdf/decoding.pdf) curtesy of [Elmar Nöth](https://lme.tf.fau.de/person/noeth/) 	| 
-April 22	| discussion A2; Q&A A3 & A4	| 	| 	| [A2 Markov chains](https://github.com/seqlrn/assignments/tree/master/2-markov-chains),
-April 29	| nnets 1: fundamentals, FF, AE, Word2Vec, FastText, ConvNets, embeddings, HMM-DNN; intro A5	| Karpathy 2016: [Yes you should understand backprop](https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b), Mikolov et al., 2013. [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781), Waibel et al., 1989. [Phoneme Recognition Using Time-Delay Neural Networks](http://www.cs.toronto.edu/~fritz/absps/waibelTDNN.pdf), LeCun et al., 1998. [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)	|[nnets basics](/pdf/nnets.pdf), [nnets pt.1](/pdf/04-nnets-1.pdf)	| 
-May 6	| discussion A3 & A4; Q&A A5	| 	| 	| [A3, A4 (HMMs)] (https://github.com/seqlrn/assignments/tree/master/3-hmm)
-May 13	| nnets2: RNN, LSTM, GRU; intro A6	| [Pytorch Seq2Seq Tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html), Pascanu et al. [On the difficulty of training recurrent neural networks](http://proceedings.mlr.press/v28/pascanu13.pdf), Chris Olah [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)	| [slides](/pdf/07-recurrent_updated.pdf) | [A5 nnet1]
-May 20	| no class (Pentecost)	| 	| 	| 
-May 27	| nnets3: s2s, Attn, CTC, RNN-T; intro A7; tranformers: basics, architectures for text (BERT, SBERT, GPT) and speech (Wav2Vec2); intro A8	| Graves et al., 2006. [Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks](https://www.cs.toronto.edu/~graves/icml_2006.pdf), Loren Lugosch's [Introduction to RNN-T](https://lorenlugosch.github.io/posts/2020/11/transducer/), Graves et al., 2012. [Sequence Transduction with Recurrent Neural Networks](https://arxiv.org/abs/1211.3711); Łukasz Kaiser: [Attention is all you need](https://www.youtube.com/watch?v=rBCqOTEfxvg), esp. at 15:45ff. Vaswani et al. [Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf), Jay Alammar [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/), Devlin et al. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805), [wav2vec: Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/1904.05862), Radford et al. [Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)	| [attention](/pdf/08-attention_updated.pdf), [ctc](/pdf/ctc.pdf), [rnn-t](/pdf/gatech_cs7643_24_subset.pdf) [transfer learning](/pdf/09-transfer.pdf)	| 
-June 3	| discussion A6 & A7; Q&A A8	| 	| 	| [A6 nnet2] [A7 nnet3]
-June 10	| LLMs as foundation models: benchmarks, GPT, BPE, data (pretraining and fine-tuning), instructGPT, RLHL; intro A9; conditioning of transformers: zero-/few-shot, CoT	| 	[road to gpt](/pdf/10-gpt.pdf) | 	| 
-June 17	| discussion A8; Q&A A9 & A10	| 	| 	| 
-June 24	| reinforcement learning; discussion A9 & A10; intro A11	| [reinforcement learning](/pdf/11-reinforcement-learning.pdf)	| 	| [A9 transformers] [A10 function calling]
-July 1	| recap; discussion A11	| 	| 	| [A11 rl]
-July 8	| no class (Berufungsverfahren AMP)	| 	| 	| 
-KW27 	| oral exams (tba)	| 	| 	| 
+Mar 17 | no class
+Mar 18 | comparing sequences: ED/Levenshtein, NW, DTW, modeling cost; intro A1	| Chao/Zhang Ch. 1.2 through 1.4, 2.4 and 3.	| [introduction](/pdf/00-introduction.pdf), [comparing sequences](/pdf/01-comparing-sequences.pdf)	| 
+Mar 24 | no class
+Mar 25 | Assignment 1 | | [A1 Dynamic Programming](https://github.com/seqlrn/assignments/tree/master/1-dynamic-programming)
+Mar 31 | Markov chains: statistical modeling of discrete sequences; discussion A1, intro A2	| Schukat-Talamazzini Ch. 7.2.{1,2}, 7.3	| [markov chains](/pdf/02-markov-chains.pdf)	| A1
+Apr 1 | review A1; Assignment 2 | | [A2 Markov chains](https://github.com/seqlrn/assignments/tree/master/2-markov-chains) |
+Apr 7 | HMMs, pt. 1: basics, BW, time-alignments; intro A3.1; 	| Schukat-Talamazzini Ch. 5 & 8	| [Hidden Markov Models](/pdf/hmm.pdf) | A2
+Apr 8 | review A2; Assignment 3, pt. 1 | | [A3 HMM](https://github.com/seqlrn/assignments/tree/master/3-hmm) |
+Apr 14 | HMMs, pt. 2: Viterbi, beam-decoding, higher order modeling; intro A3.2 | [Decoding](/pdf/decoding.pdf) curtesy of [Elmar Nöth](https://lme.tf.fau.de/person/noeth/)
+Apr 15 | Assignment 3, pt. 2 | | [A3 HMM](https://github.com/seqlrn/assignments/tree/master/3-hmm)
+Apr 21 | no class (Easter)
+Apr 22 | no class (Easter)
+Apr 28	| nnets 1: fundamentals, FF, AE, Word2Vec, FastText, ConvNets, embeddings, HMM-DNN; intro A4	| Karpathy 2016: [Yes you should understand backprop](https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b), Mikolov et al., 2013. [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781), Waibel et al., 1989. [Phoneme Recognition Using Time-Delay Neural Networks](http://www.cs.toronto.edu/~fritz/absps/waibelTDNN.pdf), LeCun et al., 1998. [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)	|[nnets basics](/pdf/nnets.pdf), [nnets pt.1](/pdf/04-nnets-1.pdf)	| A3
+Apr 29  | Assignment 4 | | [A4 nnets](https://github.com/seqlrn/assignments/tree/master/4-nnet)
+May 5 | no class
+May 6 | no class
+May 12	| nnets2: RNN, LSTM, GRU; intro A5	| [Pytorch Seq2Seq Tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html), Pascanu et al. [On the difficulty of training recurrent neural networks](http://proceedings.mlr.press/v28/pascanu13.pdf), Chris Olah [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)	| [slides](/pdf/07-recurrent_updated.pdf) | A4
+May 13 | Assignment 5 | | [A5 RNN](https://github.com/seqlrn/assignments/tree/master/5-nnet_rnn)
+May 19	| nnets3: s2s, Attn, CTC, RNN-T; intro A6	| Graves et al., 2006. [Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks](https://www.cs.toronto.edu/~graves/icml_2006.pdf), Loren Lugosch's [Introduction to RNN-T](https://lorenlugosch.github.io/posts/2020/11/transducer/), Graves et al., 2012. [Sequence Transduction with Recurrent Neural Networks](https://arxiv.org/abs/1211.3711)	| [attention](/pdf/08-attention_updated.pdf), [ctc](/pdf/ctc.pdf), [rnn-t](/pdf/gatech_cs7643_24_subset.pdf) [transfer learning](/pdf/09-transfer.pdf)	| A5
+May 20 | Assignment 6 | [A6 attention](https://github.com/seqlrn/assignments/tree/master/6-nnet_attn)
+May 26	| tranformers: basics, architectures for text (BERT, SBERT, GPT) and speech (Wav2Vec2); intro A8 | Łukasz Kaiser: [Attention is all you need](https://www.youtube.com/watch?v=rBCqOTEfxvg), esp. at 15:45ff. Vaswani et al. [Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf), Jay Alammar [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/), Devlin et al. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805), [wav2vec: Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/1904.05862), Radford et al. [Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)	| [attention](/pdf/08-attention_updated.pdf), [ctc](/pdf/ctc.pdf), [rnn-t](/pdf/gatech_cs7643_24_subset.pdf) [transfer learning](/pdf/09-transfer.pdf)	| A6
+Jun 2	| LLMs as foundation models: benchmarks, GPT, BPE, data (pretraining and fine-tuning), instructGPT, RLHL; intro A9; conditioning of transformers: zero-/few-shot, CoT	| 	[road to gpt](/pdf/10-gpt.pdf) | 	| 
+Jun 3 | Assignment 7 | | [A7 Transformers](https://github.com/seqlrn/assignments/tree/master/7-transformers_wav2vec)
+Jun 9 | no class (Pentecost)
+Jun 10 | no class (Pentecost)
+Jun 16 | no class
+Jun 17 | no class
+Jun 23	| reinforcement learning; discussion A9 & A10; intro A11	| [reinforcement learning](/pdf/11-reinforcement-learning.pdf)	| 	| A7
+Jun 24 | Assignment 8 | | [A8 Summarization](https://github.com/seqlrn/assignments/tree/master/8-transformers_sum)
+Jun 30 | state space models (tbd) | | | A8
+Jul 1 | wrap-up 
+Calendar Week 28 | Exam week 
 
 
 
