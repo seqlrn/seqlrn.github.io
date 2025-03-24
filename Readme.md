@@ -3,7 +3,9 @@ _Elective for [CS graduate students](https://www.th-nuernberg.de/fakultaeten/in/
 
 ## Class Schedule and Credits
 
-**Time and Location:**  Mondays & Tuesdays at 11.30a (**SP.467**)
+**Time and Location:**  
+- Mondays at 11.30a **HW.307**
+- Tuesdays at 11.30a **SP.467**
 
 **Announcements and Discussions:** Join on Teams wih code: `endtu0s`.
 
