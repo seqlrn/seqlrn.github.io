@@ -59,7 +59,7 @@ Mar 31 | Markov chains: statistical modeling of discrete sequences; discussion A
 Apr 1 | Assignment 2 | | [A2 Markov chains](https://github.com/seqlrn/assignments/tree/master/2-markov-chains) |
 Apr 7 | HMMs, pt. 1: basics, BW, time-alignments; intro A3.1; 	| Schukat-Talamazzini Ch. 5 & 8	| [Hidden Markov Models](/pdf/hmm.pdf) | A1
 Apr 8 | review A2; Assignment 3, pt. 1 | | [A3 HMM](https://github.com/seqlrn/assignments/tree/master/3-hmm) |
-Apr 14 | HMMs, pt. 2: Viterbi, beam-decoding, higher order modeling; intro A3.2 | [Decoding](/pdf/decoding.pdf) curtesy of [Elmar Nöth](https://lme.tf.fau.de/person/noeth/) | A2
+Apr 14 | HMMs, pt. 2: Viterbi, beam-decoding, higher order modeling; intro A3.2 | [Decoding](/pdf/decoding.pdf) curtesy of [Elmar Nöth](https://lme.tf.fau.de/person/noeth/) || A2
 Apr 15 | Assignment 3, pt. 2 | | [A3 HMM](https://github.com/seqlrn/assignments/tree/master/3-hmm)
 Apr 21 | no class (Easter)
 Apr 22 | no class (Easter)
