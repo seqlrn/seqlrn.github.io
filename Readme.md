@@ -80,10 +80,12 @@ Jun 10 | no class (Pentecost)
 Jun 16 | no class (summer school)
 Jun 17 | no class (summer school)
 Jun 23	| reinforcement learning| [reinforcement learning](/pdf/11-reinforcement-learning.pdf)	| 	| A7
-Jun 24 | Assignment 8 | | [A8 Summarization](https://github.com/seqlrn/assignments/tree/master/8-transformers_sum)
+Jun 24 | no class (BV520) | | [A8 Summarization](https://github.com/seqlrn/assignments/tree/master/8-transformers_sum)
 Jun 30 | state space models (tbd) | | | A8
-Jul 1 | wrap-up 
-Calendar Week 28 | Exam week 
+Jul 1 | review and wrap-up
+Jul 7 | no class
+Jul 8 | oral exam Q&A
+Jul 15/16 | oral exams (see schedule on Teams!)
 
 
 
