@@ -1,7 +1,4 @@
-- python, numpy und pytorch tutorial
-- Integrated Gradient for Attention
-- GPT
-- RL, Deep RL, HITL-DRL
-- Seminarerweiterung (statt Übung?) Aktuelle Papiere zu Themen vorbereiten?
-- https://lorenlugosch.github.io/posts/2020/11/transducer/
-- https://github.com/urchade/GLiNER
+- Transformer slides absplitten
+- NLP benchmarks (in vorbereitung auf BERT und GPT)
+- BERT/ masked LM training ausbauen
+
