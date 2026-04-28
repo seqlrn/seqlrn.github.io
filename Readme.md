@@ -82,8 +82,8 @@ _Note: Materials will be (mostly) in English, the lectures/tutorials will be tau
 |---|-------|-----|
 | 1 | [Dynamic Programming](https://github.com/seqlrn/assignments/tree/master/1-dynamic-programming) | Mar 31
 | 2 | [Markov chains](https://github.com/seqlrn/assignments/tree/master/2-markov-chains) | Apr 14
-| 3 | [Hidden Markov Models](https://github.com/seqlrn/assignments/tree/master/3-hmm) |
-| 4 | [Feed Forward Neural Networks](https://github.com/seqlrn/assignments/tree/master/4-nnet) |
+| 3 | [Hidden Markov Models](https://github.com/seqlrn/assignments/tree/master/3-hmm) | May 5
+| 4 | [Feed Forward Neural Networks](https://github.com/seqlrn/assignments/tree/master/4-nnet) | May 12
 | 5 | Reinforcement learning (tbd) |
 | 5 | [Recurrent Neural Networks](https://github.com/seqlrn/assignments/tree/master/5-nnet_rnn) |
 | 6 | [Attention](https://github.com/seqlrn/assignments/tree/master/6-nnet_attn) |
