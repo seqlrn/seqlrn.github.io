@@ -53,7 +53,7 @@ _Note: Materials will be (mostly) in English, the lectures/tutorials will be tau
 | ---- | ---- |
 | Mar 24 | class ends at 1.50p |
 | Apr 7  | no class (Easter) |
-| May 12 | class ends at 1.50p |
+| May 12 | no class (Event: Wandel in Oberfranken) |
 | May 26 | no class (Pentecost) |
 | Jun 23 | no class |
 | Jul 6-10 | oral exams (exact dates tbd) |
